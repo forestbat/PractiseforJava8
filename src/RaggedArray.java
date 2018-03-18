@@ -1,0 +1,12 @@
+import java.util.Random;
+
+public class RaggedArray {
+    public static void main(String...args){
+        Random rand=new Random(47);
+        //3-D array with varied-length vectors:
+        int[][][] a=new int[rand.nextInt(7)][][];
+        for(int i=0;i<a.length;i++){
+            a[i]=new int[rand.nextInt(5)][];
+        }
+    }
+}

@@ -58,10 +58,26 @@ public class Tester<C> {
         int width=fieldWidth*tests.size()+sizeWidth;
         int dashLength=width-headline.length()-1;
         StringBuilder head=new StringBuilder(width);
+        for(int i=0;i<dashLength/2;i++)
+            head.append('-');
+        head.append(headline);
+        for(int i=0;i<dashLength/2;i++)
+            head.append('-');
     }
     //Run the tests for this container:
     public void timedTest(){
         displayHeader();
+        for(TestParam param:paramList){
+            System.out.format(sizeField,param.size);
+            for(Tester<C> test:tests){
+                C kontainer=initialize(param.size);
+                long start=System.nanoTime();
+                //Call the overriden method:
+                //int reps=tests.test(kontainer,param);
+                long duration=System.nanoTime()-start;
+                //long timePerRep=duration/reps;
+            }
+        }
     }
 
 }

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$APPLICATION_HOME_DIR$/Practise for Java8/javassist/javassist.iml" filepath="$APPLICATION_HOME_DIR$/Practise for Java8/javassist/javassist.iml" />
+      <module fileurl="file://$APPLICATION_HOME_DIR$/Practise for Java8/javassist/src/javassist1.iml" filepath="$APPLICATION_HOME_DIR$/Practise for Java8/javassist/src/javassist1.iml" />
       <module fileurl="file://$PROJECT_DIR$/00000/src/main/main.iml" filepath="$PROJECT_DIR$/00000/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/Croparia/src/main/main1.iml" filepath="$PROJECT_DIR$/Croparia/src/main/main1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Warhammer/build/sources/main/main2.iml" filepath="$PROJECT_DIR$/Warhammer/build/sources/main/main2.iml" />

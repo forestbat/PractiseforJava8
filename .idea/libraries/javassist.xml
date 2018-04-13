@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javassist">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/Practise for Java8/javassist/javassist.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

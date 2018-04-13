@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="KotlinJavaScript" level="project" />
+    <orderEntry type="library" exported="" name="javassist" level="project" />
   </component>
 </module>
